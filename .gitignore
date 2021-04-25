@@ -1,2 +1,5 @@
 # Project exclude paths
 /target/
+/JunitCourse.iml
+/pom.xml
+/.idea/
