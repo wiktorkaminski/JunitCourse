@@ -1,3 +1,6 @@
+package junit;
+
+import junit.StringHelper;
 import org.junit.Before;
 import org.junit.Test;
 
