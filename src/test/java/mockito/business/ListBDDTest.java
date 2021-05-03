@@ -16,7 +16,7 @@ public class ListBDDTest {
     public void listGetMethod_usingBDD() {
         // Given
         List<String> listMock = mock(List.class);
-        given(listMock.get(0)).willReturn("Mock returns a String");
+        given(listMock.get(anyInt())).willReturn("Mock returns a String");
 
         // When
         String firstElement = listMock.get(0);
